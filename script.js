@@ -71,6 +71,7 @@ function holdIt() {
 
             } else {
                 curr1Score = 0;
+                dice.classList.add('hidden');
                 p1Score.textContent = total1Score;
                 currentPlayer = 2;
                 p1CurScore.textContent = 0;
@@ -91,6 +92,7 @@ function holdIt() {
                 p2Sec.classList.add('player--winner');
             } else {
                 curr2Score = 0;
+                dice.classList.add('hidden');
                 p2Score.textContent = total2Score;
                 currentPlayer = 1;
                 p2CurScore.textContent = 0;
